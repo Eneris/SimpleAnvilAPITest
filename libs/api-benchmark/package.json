@@ -1,0 +1,80 @@
+{
+  "name": "api-benchmark",
+  "version": "0.2.3",
+  "description": "A simple nodejs tool to measure and compare performances of api services",
+  "author": {
+    "name": "Matteo Figus",
+    "email": "matteofigus@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matteofigus/api-benchmark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matteofigus/api-benchmark/issues"
+  },
+  "homepage": "http://www.api-benchmark.com/",
+  "keywords": [
+    "benchmark",
+    "api",
+    "performance",
+    "test",
+    "load balancer",
+    "deployment",
+    "continuous delivery"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8.x",
+    "npm": ">=1.2.x"
+  },
+  "dependencies": {
+    "superagent": "0.19.0",
+    "underscore": "1.6.0",
+    "give-me": "0.1.0"
+  },
+  "devDependencies": {
+    "http-test-servers": "0.0.12",
+    "jshint": "2.5.10",
+    "mocha": "",
+    "should": "3.3.2"
+  },
+  "scripts": {
+    "pretest": "jshint lib test templates index.js",
+    "test": "node test/index"
+  },
+  "contributors": [
+    {
+      "name": "Michael Sanford",
+      "email": "michaelsanford0@gmail.com"
+    },
+    {
+      "name": "Derek Myers",
+      "email": "arcticpro@gmail.com"
+    }
+  ],
+  "gitHead": "325350570190ea23cedaa274cf247a35c0421d74",
+  "_id": "api-benchmark@0.2.3",
+  "_shasum": "09d24504ab82712470a6952b896bf343557df029",
+  "_from": "api-benchmark@>=0.2.3 <0.3.0",
+  "_npmVersion": "2.7.4",
+  "_nodeVersion": "0.10.35",
+  "_npmUser": {
+    "name": "matteofigus",
+    "email": "matteofigus@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "matteofigus",
+      "email": "matteofigus@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "09d24504ab82712470a6952b896bf343557df029",
+    "tarball": "http://registry.npmjs.org/api-benchmark/-/api-benchmark-0.2.3.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/api-benchmark/-/api-benchmark-0.2.3.tgz",
+  "readme": "ERROR: No README data found!"
+}

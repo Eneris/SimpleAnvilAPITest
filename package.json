@@ -1,0 +1,11 @@
+{
+  "name": "SimpleAnvilAPITest",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "api-benchmark": "^0.2.3"
+  }
+}
